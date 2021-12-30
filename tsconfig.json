@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "useDefineForClassFields": false,
+    "module": "ES2015",
+    "experimentalDecorators": true,
+    "lib": ["ES2015", "DOM", "DOM.Iterable"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+
+    "baseUrl": ".",
+    // "paths": {
+    //   "@src/*": ["src/*"],
+    //   "@components/*" :["src/lib/components/*"],
+    //   "@utils/*" :["src/utils/*"],
+    // },
+  },
+  "include": ["./src"]
+}
